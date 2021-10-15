@@ -16,7 +16,9 @@ class Solution:
         return count
 
 
-
 S=Solution()
 print(S.findCircle([[1,0,0],[0,1,0],[0,0,1]]))
 
+
+#Space complexity is O(n)  
+#Time complexity is O(n²) 
