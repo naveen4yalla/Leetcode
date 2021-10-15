@@ -63,5 +63,7 @@ class Solution1:
 
 
 
+#Space complexity is O(n)
+#Time complexity is O(n²)
 
 
