@@ -28,7 +28,7 @@ class UnionFind:
     def __init__(self,n):
         self.rank=[1]*n
         self.root=[i for i in range(n)]
-        self.count=0
+        self.count=n
     def find(self,a):
         if a == self.root[a]:
             return a
@@ -46,7 +46,7 @@ class UnionFind:
             else:
                 self.root[xb]=xa
                 self.rank[xa]=self.rank[xa]+1
-        self.count=self.count+1
+        self.count=self.count-1
  
     def province(self):
         return self.count
